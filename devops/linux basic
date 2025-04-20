@@ -24,3 +24,9 @@ Linux is open soruce,which mean  anyone can change,save and share its source cod
 Unix is not free.If someone wants to use Unix,they usually need to pay for it.
 
 
+kernal
+
+The kernel is the core part of Linux. It manages communication between hardware and software.
+
+Just imagine the kernel as the engine of Linux. If someone wants to make their own operating system, they can use the Linux kernel and build their own system on top of it. That’s how all Linux distributions are created.
+
