@@ -30,3 +30,7 @@ The kernel is the core part of Linux. It manages communication between hardware 
 
 Just imagine the kernel as the engine of Linux. If someone wants to make their own operating system, they can use the Linux kernel and build their own system on top of it. That’s how all Linux distributions are created.
 
+
+Linux distribution
+A linux distrubution uses the linux kernal to create own operating system.Example Red Hat,
+Ubuntu, and CasOS.
