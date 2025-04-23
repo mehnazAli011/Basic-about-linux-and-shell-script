@@ -34,3 +34,26 @@ Just imagine the kernel as the engine of Linux. If someone wants to make their o
 Linux distribution
 A linux distrubution uses the linux kernal to create own operating system.Example Red Hat,
 Ubuntu, and CasOS.
+
+ 
+linux command
+
+pwd ~ print work directory(folder)
+
+whoami ~ user
+
+date ~ for check date
+
+ls ~ see all file and folder name
+
+ls -ltr ~ see in more detilas of file and folder
+
+touch fileName ~ make nee file
+
+rm fileName ~ delete file
+
+mkdir folderName ~ make new folder
+
+rmdir folderName ~ remove folder
+
+cat fileName ~ for read file
