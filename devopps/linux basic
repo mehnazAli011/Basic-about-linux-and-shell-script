@@ -57,3 +57,5 @@ mkdir folderName ~ make new folder
 rmdir folderName ~ remove folder
 
 cat fileName ~ for read file
+
+crl+l ~  for remove all
