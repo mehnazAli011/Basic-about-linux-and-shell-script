@@ -59,3 +59,7 @@ rmdir folderName ~ remove folder
 cat fileName ~ for read file
 
 crl+l ~  for remove all
+
+sort fileName ~ sort file context
+
+uniq fileName ~ only uniq context not repeate duplicate context
