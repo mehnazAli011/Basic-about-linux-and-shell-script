@@ -63,3 +63,8 @@ crl+l ~  for remove all
 sort fileName ~ sort file context
 
 uniq fileName ~ only uniq context not repeate duplicate context
+
+Pipe command
+You can you the pipe symbol(|) to run two command together,where the output of the first command become the output of the second command.
+
+ls | wc -l  ~ for check who many file and folder in your current directory.
