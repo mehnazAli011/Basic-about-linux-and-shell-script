@@ -68,3 +68,14 @@ Pipe command
 You can you the pipe symbol(|) to run two command together,where the output of the first command become the output of the second command.
 
 ls | wc -l  ~ for check who many file and folder in your current directory.
+
+
+cat file1 file2 ~ This command concatenates the contents of file1 and file2 and prints them to the terminal.
+
+grep
+grep command is very useful.
+
+grep word fileName ~ the word is found ,grep print line contaning it.
+
+grep -n word fileName ~ the word is found ,grep print  number of line contaning it.
+
