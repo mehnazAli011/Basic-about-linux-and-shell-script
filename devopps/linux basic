@@ -87,6 +87,42 @@ you can use echo $? afterword:
 grep -r word fileName ~
 → Recursively searches for the word in all files inside the directory.
 
-grep "word1|word2" fileName ~
+egrep "word1|word2" fileName ~
 → Searches for either word1 or word2 in the file.
 (Use \| for OR in basic grep. For extended syntax, use grep -E "word1|word2")
+
+
+grep word filename filename ~
+sreach one word in multiply files
+
+find Command
+
+find . -name fileName
+use  the find command to sreach for a file by its name
+
+find . -user userName
+use find command to sreach for files owned by a specific use.
+
+
+find . -size fileSize
+Use the find command to search for files of a specific size.
+
+
+find . -mtime 12
+Use the find command to search for files modified exactly 12 days ago.
+
+
+
+
+find . -type 1 
+Use the find command to search for symbolic links.
+
+
+
+find . -newer fileName
+Use the find command to search for files modified more recently than the specified file.
+
+
+
+
+
