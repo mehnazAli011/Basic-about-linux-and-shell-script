@@ -4,7 +4,7 @@ linux is an operating system.
 
 linux is security flexibilty and open source.
 
-The name "linux" com form Unix+linux.
+The name "linux" come from Unix+linux.
 
 Create by linus Trovalds in 1991.
 
@@ -95,6 +95,9 @@ egrep "word1|word2" fileName ~
 grep word filename filename ~
 sreach one word in multiply files
 
+some command are more egrep,pgrep,Pdfgrep,Zgrep that all.
+
+
 find Command
 
 find . -name fileName
@@ -103,25 +106,34 @@ use  the find command to sreach for a file by its name
 find . -user userName
 use find command to sreach for files owned by a specific use.
 
-
 find . -size fileSize
 Use the find command to search for files of a specific size.
 
-
 find . -mtime 12
 Use the find command to search for files modified exactly 12 days ago.
-
-
-
 
 find . -type 1 
 Use the find command to search for symbolic links.
 
 
-
 find . -newer fileName
 Use the find command to search for files modified more recently than the specified file.
 
+
+PS(Processes statu)
+That  all command use for check  process details.
+
+ps ~
+shows current user's running processes in the current shell/session.
+
+ps -e ~
+lists all system processes by PID(same as ps  -A)
+
+ps -ef ~
+Shows full details (UID, PID, PPID, start time, etc.) of all processes.
+
+ps -ef |  grep Java
+Filters and shows Java-related processes from the full process list.
 
 
 
