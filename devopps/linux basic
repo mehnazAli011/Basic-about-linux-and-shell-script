@@ -28,6 +28,21 @@ Linux distribution
 A linux distrubution uses the linux kernal to create own operating system.Example Red Hat,
 Ubuntu, and CasOS.
 
+
+virualization
+
+
+
+
+
+
+
+
+
+
+
+
+
 linux command
 
 pwd ~ print work directory(folder)
@@ -134,6 +149,7 @@ Shows full details (UID, PID, PPID, start time, etc.) of all processes.
 
 ps -ef |  grep Java
 Filters and shows Java-related processes from the full process list.
+
 
 
 
