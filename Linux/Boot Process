@@ -1,0 +1,46 @@
+
+
+How the computer start??
+
+
+ button---------->server-------------------------->C.P.U
+  on                                                |
+                                                BIOS(programm)
+                                                   |
+                                          MBR(Master Boot Recoder)
+                                                   |
+                                                GRUB(Programm)
+                                                   |
+                                                   Kernal
+
+
+
+
+
+
+                                                
+                           _ _ _ _ _ _ _
+                          |   BIOS      | ============>First program that run when the  
+                          |_ _ _ _ _ _ _|              computer is powered on.
+                                |
+                                |
+                           _ _ _ _ _ _ _
+                          |   MBR       | ======> finds the bootable device(Disk,Pen drive 
+                          |_ _ _ _ _ _ _|         CD etc.)
+                                |
+                                |
+                           _ _ _ _ _ _ _
+                          |   GRUB      |=====> Load the kernal into memory
+                          |_ _ _ _ _ _ _|
+                                |
+                            _ _ | _ _ _ _
+                          |   Kernal    | 
+                          |_ _ _ _ _ _ _|=====> Gets the computer ready to run linux. 
+                                | 
+                           _ _ _| _ _ _ _
+                          |  systemd    | ====> starts services and shows the login screen.
+                          |_ _ _ _ _ _ _|
+                                
+
+
+
