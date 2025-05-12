@@ -43,4 +43,58 @@ How the computer start??
                                 
 
 
+1.BIOS
+.The first program that runs when you on the computer.
+
+.Perform POST (Power-on self-test) it's mean first it check all connected device (hardwear,extrnal devices) are all in proper condition or not.
+
+.check for bootable device like pen drive,hardDisk etc.(check it's has or not.I will be able to load the operating system)
+
+.BIOS is old one and new one is UEFI (Unified Extrensible Fireware Interface)
+
+
+
+
+2.MBR(Master Boot Recoder)
+The MBR is just 512 bytes of data at the very start of your hard disk.
+It tells your computer how to start up and where to find your operating system.
+
+
+a.Boot loader(446 bytes)
+load the main bootloader and OS.
+
+b.Partition table(64 bytes)
+It can describe up to 4 primary partitions.
+
+
+c.Error checking (2 bytes)
+It helps check if the MBR is correct or damaged.
+
+
+
+3.GRUB(GRand Unified Bootloader)
+
+GRUB is  boot program that start after MBR
+
+It Shows a boot menu(select one)
+
+It load the linux kernel into memory.
+
+
+
+4.Kernal
+The kernal is part of boot proceess.
+
+One loaded,the kernel manages hardware(CPU,memory,etc) and starts the OS.
+
+
+
+5.systemd
+systemd is a system manager that starts after the kernel.
+
+First service loaded with process ID 1.
+
+It manages services and processes (like starting the login screen or network).
+
+It keeps the system running smoothly by handling tasks like booting, shutting down, and service management.
 
