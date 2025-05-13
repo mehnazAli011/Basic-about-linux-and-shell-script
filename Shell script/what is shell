@@ -1,0 +1,40 @@
+
+
+A shell proived an envoriment to user to a execute commands and intract with kernal.
+
+"When user type a commands,the shell runs(executes) it and show the result.That ineraction is done through the shell.
+
+
+
+
+
+✅ What is the role of sh(any shell) shell in bellard.org Fedora Linux system (any system)?
+
+when your type command
+echo "Hii there"
+
+sh take this command tell linux system what to do.
+the system print "Hii there"
+
+
+------------Type of shell---------------
+
+-bash
+
+-sh
+
+-zsh
+
+-fish
+
+-tsh
+
+-ksh
+
+
+
+
+
+========= How to check which shell in your system ========
+
+echo $0
