@@ -1,0 +1,55 @@
+
+                           Why need virtual mechine??
+                                  
+                                     Linux OS 🐧
+                                           |
+                                Virtualization 🔄 ====> Layer of Virtualization 📦
+                                           |
+                                    Windows OS 🪟
+                                           |
+                Laptop 💻 ---------> Hardware ⚙️
+
+
+
+what is virtualization layer??
+
+That layer actually Hypervisor.
+
+Hypervisor=>It is software that creates and run virtual machine (VMs).
+
+
+
+
+                     What the Hypervisor do?
+
+
+                     Laptop 💻 (Host System)
+                     - 8 GB RAM
+                     - 100 GB HDD
+                            |
+                     [Hypervisor 🔄]
+                              |
+      -----------------------------------------------------
+      |                                                   |
+     VM1 (Linux 🐧)                                    VM2 (Windows 🪟)
+     - 2 GB RAM                                          - 2 GB RAM
+     - 10 GB HDD                                         - 10 GB HDD
+
+
+
+
+                    
+
+                    Type of hypervisor
+
+1.Hosted
+
+2.Bare-matel
+
+
+
+Vritualization use case
+cheap
+Redues
+Easy backup using snapshot
+Easy recovery

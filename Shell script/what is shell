@@ -1,6 +1,6 @@
 
 
-A shell proived an envoriment to user to a execute commands and intract with kernal.
+A shell provide an enviroment to user to a execute commands and interact with kernel.
 
 "When user type a commands,the shell runs(executes) it and show the result.That ineraction is done through the shell.
 
@@ -8,7 +8,7 @@ A shell proived an envoriment to user to a execute commands and intract with ker
 
 
 
-✅ What is the role of sh(any shell) shell in bellard.org Fedora Linux system (any system)?
+ What is the role of sh(any shell) shell in bellard.org Fedora Linux system (any system)?
 
 when your type command
 echo "Hii there"
