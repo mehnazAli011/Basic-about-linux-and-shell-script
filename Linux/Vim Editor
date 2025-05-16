@@ -1,0 +1,47 @@
+1.Open Vim and create new file
+vim FileName.sh
+
+2.Press Enter
+This will open the file in vim editor
+
+3.Press i for insert mode
+Now you can start typing
+
+4.Type the Bash script
+
+#!/bin/bash
+~
+~
+echo "Hello wolrd"
+
+5.Press Esc for Exit insert mode
+
+6.Save and Exit Vim
+
+:wq
+
+7.Run the script
+sh Filename.sh
+
+output
+"Hello world
+
+i-for insert mode
+
+Esc- back to normal mode
+
+:w- for save
+
+:q-for quit
+
+:wq- save and quit
+
+
+gg-top of the file
+
+shift+g - bottom of the file
+
+shit+o - back line
+
+oo - next line
+

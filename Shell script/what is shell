@@ -38,3 +38,6 @@ the system print "Hii there"
 ========= How to check which shell in your system ========
 
 echo $0
+
+
+

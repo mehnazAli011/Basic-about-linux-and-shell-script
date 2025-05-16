@@ -1,0 +1,54 @@
+//Basic script
+#!/bin/bash----->Shebang
+
+echo "Hello world"
+
+How to run file
+
+
+make sure script has execute prmission rwx
+
+
+run using
+./script.sh
+./path/script.sh
+bash script.sh
+
+
+comment in script
+
+#sing line commnet
+
+<<commnet
+That is way 
+to comment 
+multiply line
+comment
+
+
+
+variable
+#!/bin/bash
+
+name="John
+age=21
+
+echo "my name is $name and i'm $age year old"
+
+#if you want change variable value 
+name="Jeshan"
+
+echo "my name is $name and i'm $age year old"
+
+
+Const variable
+
+readonly College ="MDS"
+
+
+Array
+myArr=( 1 2 3 4 5)
+
+How to get value
+echo "${myArr[0]}"
+echo "${myArr[1]}"
