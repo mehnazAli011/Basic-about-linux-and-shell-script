@@ -8,6 +8,9 @@ The name "linux" come from Unix+linux.
 
 Create by linus Trovalds in 1991.
 
+
+                <---------------------------------------------->
+
 Unix
 
 Unix is one of popular operating system in those days ,follow Unix operating system and make another operating system that linux.
@@ -18,23 +21,30 @@ Linux is open soruce,which mean anyone can change,save and share its source code
 
 Unix is not free.If someone wants to use Unix,they usually need to pay for it.
 
+
+
+                <---------------------------------------------->
+
 kernal
 
 The kernel is the core part of Linux. It manages communication between hardware and software.
 
 Just imagine the kernel as the engine of Linux. If someone wants to make their own operating system, they can use the Linux kernel and build their own system on top of it. That’s how all Linux distributions are created.
 
+
+                <---------------------------------------------->
+
 Linux distribution
 A linux distrubution uses the linux kernal to create own operating system.Example Red Hat,
 Ubuntu, and CasOS.
 
 
-virualization
 
 
 
 
 
+                <---------------------------------------------->
 
 
 

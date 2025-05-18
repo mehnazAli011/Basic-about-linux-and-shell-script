@@ -1,0 +1,83 @@
+
+                           File system
+
+
+ A file system orgnaizes and  stores data,includes file ,directories and metadate in structured ways.
+
+
+ 
+                    *********************************************
+
+                            How to check which fileSystem in your system
+
+1.df -Th 
+
+2.lsblk-f
+
+3.cat/etc/fstab
+
+ 
+
+                    *********************************************
+
+Types of file system
+
+ext3
+
+ext4
+
+ext5
+
+XFS
+(Uduntu,Fedora,Debain,centOS,RedHat)
+
+BtrFS(B-Tree FS)
+(openSUSE and SUSE Linux Enterprise severs)
+
+
+FAT
+
+
+
+ XSF
+ A good for larger file and  larges voloumes.It preforms better in trems of performes and scalabilty.
+
+
+Ext4
+Ext4 work well with many types of  file ,but less efficent for extremly larges file.
+
+
+
+
+               *********************************************
+
+
+
+                       what is inode ?
+
+ When you create a file and store data  in it. the inode number tell where is located on the  disk.
+
+
+
+
+Example
+
+Imagine you have a file named example.txt in your folder. You run this command in the terminal:
+
+ls -li example.txt
+
+
+
+You might see something like this:
+
+128849 example.txt
+
+
+a.)128849 is inode number.
+
+b.)example.text is file name.
+
+
+
+
+                       *********************************************
