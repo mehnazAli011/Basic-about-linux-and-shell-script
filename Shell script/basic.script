@@ -1,0 +1,37 @@
+
+
+                               How you print "Hello world"
+a)
+Create a new  file.
+vi example.text
+
+
+
+
+b)
+Write the following content inside the file (in vi editor):
+#/bin/bash
+echo "Hello world"
+
+
+save and exit file
+a. i for insert mode
+b.:wq for save and exit
+c. :q for exit
+d. :w save the file
+
+c)
+Run the script:
+sh example.text
+
+
+
+d)
+Output:
+"Hello world
+
+
+
+
+                        *******************************
+
