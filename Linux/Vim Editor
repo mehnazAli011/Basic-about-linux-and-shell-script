@@ -1,47 +1,120 @@
-1.Open Vim and create new file
+
+📝 How to Create and Run a Bash Script in Vim
+Open Vim and create a new file
+
 vim FileName.sh
+Press Enter
+This opens the file in the Vim editor.
 
-2.Press Enter
-This will open the file in vim editor
+Press i to enter Insert Mode
+You can now start typing your Bash script.
 
-3.Press i for insert mode
-Now you can start typing
-
-4.Type the Bash script
+Type your script
 
 #!/bin/bash
-~
-~
-echo "Hello wolrd"
+echo "Hello world"
+Press Esc
+This exits Insert Mode and returns you to Normal Mode.
 
-5.Press Esc for Exit insert mode
-
-6.Save and Exit Vim
+Save and Exit Vim
 
 :wq
+Run the script
 
-7.Run the script
-sh Filename.sh
-
-output
-"Hello world
-
-i-for insert mode
-
-Esc- back to normal mode
-
-:w- for save
-
-:q-for quit
-
-:wq- save and quit
+sh FileName.sh
+Output:
 
 
-gg-top of the file
 
-shift+g - bottom of the file
 
-shit+o - back line
+nginx
+Hello world
+🔑 Vim Modes and Commands
+🔃 Modes
+i — Insert Mode (start typing)
 
-oo - next line
+Esc — Normal Mode (navigate or give commands)
+
+
+
+
+💾 Saving & Exiting
+:w — Save
+
+:q — Quit
+
+:wq — Save and quit
+
+
+
+🧭 Navigation
+gg — Go to the top of the file
+
+Shift + G — Go to the bottom of the file
+
+o — Open a new line below
+
+Shift + o — Open a new line above
+
+
+
+✂️ Editing
+dd — Delete a line
+
+x — Delete a character
+
+r — Replace a single character
+
+Shift + C — Cut from cursor to end of line
+
+p — Paste below the current line
+
+Shift + A — Move to the end of the line and enter Insert Mode
+
+
+
+📋 Copy and Paste
+Shift + V — Select line (Visual Line Mode)
+
+Press y — Copy the selected line(s)
+
+p — Paste copied content
+
+
+
+🔍 Search and Replace
+/word — Search for "word"
+
+n — Jump to next match
+
+:%s/old/new/g — Replace all occurrences of "old" with "new" globally
+
+
+
+↩️ Undo & Redo
+u — Undo
+
+Ctrl + r — Redo
+
+
+
+🔢 Line Numbers
+:set nu — Show line numbers
+
+:set nonu — Hide line numbers
+
+
+
+
+
+📂 Working with Multiple Files
+vim -o file1 file2 — Open multiple files side by side
+
+Ctrl + w (twice) — Switch between split windows
+
+
+
+
+🆚 Compare Files
+vim -d file1 file2 — Compare (diff) two files side by side
 
