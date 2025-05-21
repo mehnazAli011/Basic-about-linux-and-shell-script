@@ -1,0 +1,9 @@
+                           How to run file
+
+
+
+./script.sh
+/path/script.sh
+sh script.sh
+
+sh is shell script in my system
