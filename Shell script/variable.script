@@ -1,0 +1,22 @@
+
+                                   How to declare variable
+name="john"
+age=21
+
+echo "My name is $name and age $age"
+
+change the variable value
+
+name="john"
+age=21
+
+echo "My name is $name and age $age"
+
+name="Jeshan"
+echo "My name is $name and age $age"
+
+costent variable
+
+readonly college_name ="MDS"
+
+echo "my college name is $college_name"
