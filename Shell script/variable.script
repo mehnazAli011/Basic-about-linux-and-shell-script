@@ -1,22 +1,20 @@
 
-                                   How to declare variable
-name="john"
+#!/bin/bash
+
+# ✅ Declare variables
+name="John"
 age=21
 
+# ✅ Print variable values
 echo "My name is $name and age $age"
 
-change the variable value
-
-name="john"
-age=21
-
-echo "My name is $name and age $age"
-
+# ✅ Change variable value
 name="Jeshan"
 echo "My name is $name and age $age"
 
-costent variable
+# ✅ Declare a constant (readonly) variable
+readonly college_name="MDS"
 
-readonly college_name ="MDS"
-
-echo "my college name is $college_name"
+# ✅ Print constant variable
+echo "My college name is $college_name"
+✅

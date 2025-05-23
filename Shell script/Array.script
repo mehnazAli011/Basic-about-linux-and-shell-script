@@ -1,0 +1,29 @@
+                                 Array 
+
+#!/bin/bash
+
+# ✅ Declare an array
+my_Array=(1 2 "Hello world" buddy)
+
+# ✅ Access elements by index
+echo "${my_Array[0]}"   # First element
+echo "${my_Array[1]}"   # Second element
+
+# ✅ Access all elements in the array
+echo "${my_Array[*]}"
+
+# ✅ Get the length of the array (number of elements)
+echo "${#my_Array[@]}"
+
+# ✅ Get specific values (slicing)
+echo "${my_Array[@]:1}"   # From index 1 to end
+echo "${my_Array[@]:2}"   # From index 2 to end
+
+# ✅ Append values to the array
+my_Array+=("5" "6" "7" "8")  # Correct way to append multiple elements
+
+# ✅ Overwrite the array with new values
+my_Array=("new" "30" "40")
+
+# ✅ Print updated array
+echo "${my_Array[@]}"
