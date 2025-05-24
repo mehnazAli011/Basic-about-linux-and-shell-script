@@ -1,0 +1,26 @@
+
+                            String Operation
+
+
+
+myVar="Hello world"
+
+# 1. Get Length of String
+length=${#myVar}
+# Result: 11
+
+# 2. Convert to Uppercase
+upper=${myVar^^}
+# Result: HELLO WORLD
+
+# 3. Convert to Lowercase
+lower=${myVar,,}
+# Result: hello world
+
+# 4. Replace Substring
+replace=${myVar/world/buddy}
+# Result: Hello buddy
+
+# 5. Slice String (start at index 6, get 5 characters)
+slice=${myVar:6:5}
+# Result: world
