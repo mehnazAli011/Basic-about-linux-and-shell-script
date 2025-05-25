@@ -1,0 +1,52 @@
+#!/bin/bash
+
+read name
+echo "You name is $name"
+
+
+
+
+#!/bin/bash
+
+read -p "Please enter your name: " name
+echo "Your name is $name."
+✅
+
+
+                    ************************************
+
+🧾 Example 1: Asking for Age
+#!/bin/bash
+
+read -p "How old are you? " age
+echo "You are $age years old."
+
+
+
+                    ************************************
+
+🧾 Example 2: Greeting the User
+#!/bin/bash
+
+read -p "What is your name? " name
+echo "Nice to meet you, $name!"
+
+                    ************************************
+
+
+🧾 Example 3: Asking for Favorite Color
+#!/bin/bash
+
+read -p "What is your favorite color? " color
+echo "$color is a beautiful color!"
+
+                    ************************************
+
+
+🧾 Example 4: Multiple Inputs
+#!/bin/bash
+
+read -p "Enter your first name: " first
+read -p "Enter your last name: " last
+echo "Your full name is $first $last."
+                    ************************************
