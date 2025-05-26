@@ -1,0 +1,40 @@
+
+
+
+# Declare two numbers
+x=2
+y=2
+
+# Multiplication
+mul=$((x * y))
+echo "Multiplication: $mul"
+
+# Addition
+sum=$((x + y))
+echo "Addition: $sum"
+
+# Subtraction
+sub=$((x - y))
+echo "Subtraction: $sub"
+
+# Division
+div=$((x / y))
+echo "Division: $div"
+
+# Modulus (Remainder)
+mod=$((x % y))
+echo "Modulus (Remainder): $mod"
+
+# Power (x^y)
+power=$((x ** y))
+echo "Power: $power"
+
+# Increment x and y
+((x++))
+((y++))
+echo "After Increment - x: $x, y: $y"
+
+# Decrement x and y
+((x--))
+((y--))
+echo "After Decrement - x: $x, y: $y"
