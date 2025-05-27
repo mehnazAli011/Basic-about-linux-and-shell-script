@@ -1,0 +1,10 @@
+
+#!/bin/bash
+
+marks=50  # No space around '=' in variable assignment
+
+if [[ $marks -gt 40 ]]; then  # Put 'then' on same line or next line
+    echo "You passed"         # Better phrasing
+else
+    echo "You failed"
+fi
