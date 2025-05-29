@@ -8,3 +8,21 @@ if [[ $marks -gt 40 ]]; then  # Put 'then' on same line or next line
 else
     echo "You failed"
 fi
+
+
+
+
+   equal                       -eq/==
+
+  Greaterthennorequalto               -ge
+
+  Lessthanorequalto             -le
+
+  Not equal                     -ne/!=
+
+  Greater then                   -gt
+
+  less than                       -lt
+
+
+                                  ELFI
