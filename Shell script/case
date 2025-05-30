@@ -1,0 +1,10 @@
+echo "Hey choose an option"
+echo "a=To see the current date"
+echo "b=list all files in current dir"
+
+read $choise in
+a) date
+b)Ls;
+*) echo  "Non a vaild input"
+
+esac
