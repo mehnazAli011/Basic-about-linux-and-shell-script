@@ -1,10 +1,17 @@
-echo "Hey choose an option"
-echo "a=To see the current date"
-echo "b=list all files in current dir"
+echo "Hey, choose an option:"
+echo "a = See the current date"
+echo "b = List all files in the current directory"
 
-read $choise in
-a) date
-b)Ls;
-*) echo  "Non a vaild input"
+read choice
 
+case $choice in
+  a)
+    date
+    ;;
+  b)
+    ls
+    ;;
+  *)
+    echo "Not a valid input"
+    ;;
 esac
